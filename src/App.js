@@ -2,6 +2,10 @@ import planDeNegocios from './files/planDeNegocios.pdf';
 import proyecciones from './files/proyecciones.pdf';
 import proyectoDeAcuerdo from './files/proyectoDeAcuerdo.pdf';
 import actaResolObjecConfirmAcuerdo from './files/actaResolObjecConfirmAcuerdo.pdf';
+import eeffJun30 from './files/eeffJun30.pdf';
+import eeffSep30 from './files/eeffSep30.pdf';
+import notasEeffJun30 from './files/notasEeffJun30.pdf';
+import notasEeffSep30 from './files/notasEeffSep30.pdf';
 import './App.css';
 
 function App() {
@@ -86,6 +90,14 @@ function App() {
       <div className = 'links'>
         <h2>Documentos soporte:</h2>
         <a href = {actaResolObjecConfirmAcuerdo} target = '_blank' rel = 'noreferrer'>Acta de resolución de objeciones y confirmación del acuerdo</a>
+        <br></br>
+        <a href = {eeffJun30} target = '_blank' rel = 'noreferrer'>Estados financieros a 30 de junio de 2020</a>
+        <br></br>
+        <a href = {eeffSep30} target = '_blank' rel = 'noreferrer'>Estados financieros a 30 de septiembre de 2020</a>
+        <br></br>
+        <a href = {notasEeffJun30} target = '_blank' rel = 'noreferrer'>Notas a los estados financieros a 30 de junio de 2020</a>
+        <br></br>
+        <a href = {notasEeffSep30} target = '_blank' rel = 'noreferrer'>Notas a los estados financieros a 30 de septiembre de 2020</a>
         <br></br>
         <a href = {planDeNegocios} target = '_blank' rel = 'noreferrer'>Plan de negocios</a>
         <br></br>
