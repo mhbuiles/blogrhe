@@ -6,6 +6,10 @@ import eeffJun30 from './files/eeffJun30.pdf';
 import eeffSep30 from './files/eeffSep30.pdf';
 import notasEeffJun30 from './files/notasEeffJun30.pdf';
 import notasEeffSep30 from './files/notasEeffSep30.pdf';
+import eeffdic2020rhe from './files/eeffdic2020rhe.pdf';
+import notaseeffdic2020rhe from './files/notaseeffdic2020rhe.pdf';
+import eeffmar2021rhe from './files/eeffmar2021rhe.pdf';
+import notaseeffmar2021rhe from './files/notaseeffmar2021rhe.pdf';
 import './App.css';
 
 function App() {
@@ -104,6 +108,14 @@ function App() {
         <a href = {proyecciones} target = '_blank' rel = 'noreferrer'>Proyecciones</a>
         <br></br>
         <a href = {proyectoDeAcuerdo} target = '_blank' rel = 'noreferrer'>Proyecto de acuerdo</a>
+        <br></br>
+        <a href = {eeffdic2020rhe} target = '_blank' rel = 'noreferrer'>Estados financieros a 31 de diciembre de 2020</a>
+        <br></br>
+        <a href = {notaseeffdic2020rhe} target = '_blank' rel = 'noreferrer'>Notas a los estados financieros a 31 de diciembre de 2020</a>
+        <br></br>
+        <a href = {eeffmar2021rhe} target = '_blank' rel = 'noreferrer'>Estados financieros a 31 de marzo de 2021</a>
+        <br></br>
+        <a href = {notaseeffmar2021rhe} target = '_blank' rel = 'noreferrer'>Notas a los estados financieros a 31 de marzo de 2021</a>
         <br></br>
       </div>
       <div className = 'contact'>
